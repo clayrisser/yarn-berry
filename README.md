@@ -5,6 +5,6 @@
 ## Installation
 
 ```sh
-yarn add --dev yarn-berry
-cat 'yarnPath: "node_modules/yarn-berry/.yarn/releases/yarn-berry.js"' > .yarnrc.yml
+yarn add --dev -W yarn-berry
+echo 'yarnPath: "node_modules/yarn-berry/.yarn/releases/yarn-berry.js"' > .yarnrc.yml
 ```
