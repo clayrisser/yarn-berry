@@ -1,0 +1,31 @@
+{
+  "name": "yarn-berry",
+  "version": "2.2.2",
+  "description": "yarn berry cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/codejamninja/yarn-berry.git"
+  },
+  "keywords": [
+    "yarn",
+    "berry",
+    "2",
+    "cli"
+  ],
+  "files": [
+    ".yarn"
+  ],
+  "bin": {
+    "yarn-berry": ".yarn/releases/yarn-berry.js"
+  },
+  "author": "Jam Risser <jam@codejam.ninja>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codejamninja/yarn-berry/issues"
+  },
+  "homepage": "https://github.com/codejamninja/yarn-berry#readme"
+}
